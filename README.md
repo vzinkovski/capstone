@@ -7,6 +7,6 @@ This project seeks to forecast daily returns for S&P 500 constituent companies. 
 
 ### Data access statement
 
-**Yahoo! Finance API**: An open-source tool that uses Yahoo's publicly available APIs and is intended for research and educational purposes. Please refer to Yahoo!'s terms of use ([here](https://legal.yahoo.com/us/en/yahoo/terms/product-atos/apiforydn/index.html), [here](https://legal.yahoo.com/us/en/yahoo/terms/otos/index.html), and [here](https://policies.yahoo.com/us/en/yahoo/terms/index.htm)) for details on your rights to use the actual data downloaded. Note that the Yahoo! Finance API is intended for personal use only.
+**yfinance**: An open-source tool that uses Yahoo's publicly available APIs and is intended for research and educational purposes. Please refer to Yahoo!'s terms of use ([here](https://legal.yahoo.com/us/en/yahoo/terms/product-atos/apiforydn/index.html), [here](https://legal.yahoo.com/us/en/yahoo/terms/otos/index.html), and [here](https://policies.yahoo.com/us/en/yahoo/terms/index.htm)) for details on your rights to use the actual data downloaded. Note that the Yahoo! Finance API is intended for personal use only. Link to 
 
-****:
+**fredapi**: A Python API for the [FRED](https://fred.stlouisfed.org/) data provided by the Federal Reserve Bank of St. Louis. In order to use the API you can use the following API key: "a74d505e6731a2b5b06fdcf6ca20f6f5", or [apply for one](https://fred.stlouisfed.org/docs/api/api_key.html) for free on the FRED website. This API is made available under a permissive, open-source Apache-2.0 license.
