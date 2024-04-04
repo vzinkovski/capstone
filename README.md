@@ -5,6 +5,23 @@
 
 This project seeks to forecast daily returns for S&P 500 constituent companies. The forecast period is one-day ahead and approached as a binary classification task where we label positive returns as the positive class, and negative or zero returns as the negative class. We use two datasets to extract features that may be predictive of future returns. First, the open, high, low and closing prices, and trading volume data from Yahoo! Finance. Second, various macroeconomic indicators pertaining to the US economy from the Federal Reserve Economic Data (FRED). We use data from 2000 up to and including 2023, which is split approximately 75%/12.5%/12.5% or 18/3/3 years for training/validation/testing. We train, tune and evaluate multiple individual models (RandomForest, LightGBM, deep neural net) which are then also combined into ensemble models (VotingClassifier, StackingClassifier). The best performing model is chosen upon which to build a simple trading strategy where if we predict the next day’s returns as positive, we buy for a holding period of one day. Finally, we evaluate the equity curve and Sharpe ratio achieved by our strategy versus a benchmark buy-and-hold approach.
 
+### Libraries
+
+What follows are the main libraries used in this project. For a complete list, including dependencies, please refer to the requirements.txt file.
+
+- seaborn   : 0.13.1
+- torch     : 2.2.1+cu121
+- yfinance  : 0.2.37
+- numpy     : 1.25.2
+- lightgbm  : 4.1.0
+- talib     : 0.4.28
+- requests  : 2.31.0
+- matplotlib: 3.7.1
+- fredapi   : 0.5.1
+- pandas    : 2.0.3
+- sklearn   : 1.2.2
+- skorch    : 0.15.0
+
 ### Data access statement
 
 All data used in this project can be freely accessed from the below two sources in order to allow for reproducibility of results.
