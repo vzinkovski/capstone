@@ -7,7 +7,7 @@ This project seeks to forecast daily returns for S&P 500 constituent companies. 
 
 ### How to run the code?
 
-Our work has been fully produced in Jupyter Notebook format using the Python language. This format encourages reproducability of results and we encourage the reader to download a copy and experiment with the code. Please follow this **[link](https://nbviewer.org/github/vzinkovski/umich_siads_capstone/blob/main/forecast_sp500_returns.ipynb)** to view the full project.
+Our work has been fully produced in Jupyter Notebook format using the Python language. This format encourages reproducability of results and we encourage the reader to download a copy and experiment with the code. Please follow this **[link](https://nbviewer.org/github/vzinkovski/umich_siads_capstone/blob/main/forecast_sp500_returns.ipynb)** to view the complete project.
 
 ### Libraries
 
