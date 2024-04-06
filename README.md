@@ -5,6 +5,10 @@
 
 This project seeks to forecast daily returns for S&P 500 constituent companies. The forecast period is one-day ahead and approached as a binary classification task where we label positive returns as the positive class, and negative or zero returns as the negative class. We use two datasets to extract features that may be predictive of future returns. First, the open, high, low and closing prices, and trading volume data from Yahoo! Finance. Second, various macroeconomic indicators pertaining to the US economy from the Federal Reserve Economic Data (FRED). We use data from 2000 up to and including 2023, which is split approximately 75%/12.5%/12.5% or 18/3/3 years for training/validation/testing. We train, tune and evaluate multiple individual models (RandomForest, LightGBM, deep neural net) which are then also combined into ensemble models (VotingClassifier, StackingClassifier). The best performing model is chosen upon which to build a simple trading strategy where if we predict the next day’s returns as positive, we buy for a holding period of one day. Finally, we evaluate the equity curve and Sharpe ratio achieved by our strategy versus a benchmark buy-and-hold approach.
 
+### How to run the code?
+
+Our work has been fully produced in Jupyter Notebook format using the Python language. This format encourages reproducability of results and we encourage the reader to download a copy and experiment with the code. Please follow this **[link](https://nbviewer.org/github/vzinkovski/umich_siads_capstone/blob/main/forecast_sp500_returns.ipynb)** to view the full project.
+
 ### Libraries
 
 What follows are the main libraries used in this project. For a complete list, including dependencies, please refer to the requirements.txt file.
@@ -21,6 +25,7 @@ What follows are the main libraries used in this project. For a complete list, i
 - pandas    : 2.0.3
 - sklearn   : 1.2.2
 - skorch    : 0.15.0
+- optuna    : ??? ### TODO
 
 ### Data access statement
 
