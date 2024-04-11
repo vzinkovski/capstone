@@ -29,7 +29,7 @@ What follows are the main libraries used in this project. For a complete list, i
 - pandas    : 2.0.3
 - sklearn   : 1.2.2
 - skorch    : 0.15.0
-- optuna    : ??? ### TODO
+- optuna    : 3.6.1
 
 ### Data access statement
 
