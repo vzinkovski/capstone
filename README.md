@@ -13,6 +13,14 @@ Text here. ### TODO
 
 Our work has been fully produced in the Jupyter Notebook format using the Python language. This format encourages reproducibility of results and we encourage the reader to download a copy and experiment with the code. Please follow this **[link](https://nbviewer.org/github/vzinkovski/umich_siads_capstone/blob/main/forecast_sp500_returns.ipynb)** to view the complete project.
 
+### Data access statement
+
+All data used in this project can be freely accessed from the below two sources in order to allow for reproducibility of results.
+
+**yfinance**: An open-source tool that uses Yahoo's publicly available APIs and is intended for research and educational purposes. Please refer to Yahoo!'s terms of use ([here](https://legal.yahoo.com/us/en/yahoo/terms/product-atos/apiforydn/index.html), [here](https://legal.yahoo.com/us/en/yahoo/terms/otos/index.html), and [here](https://policies.yahoo.com/us/en/yahoo/terms/index.htm)) for details on your rights to use the actual data downloaded. Note that the Yahoo! Finance API is intended for personal use only. Links to [PyPi](https://pypi.org/project/yfinance/) and [GitHub](https://github.com/ranaroussi/yfinance).
+
+**fredapi**: A Python API for the [FRED](https://fred.stlouisfed.org/) data provided by the Federal Reserve Bank of St. Louis. In order to use the API you can use the following API key: *a74d505e6731a2b5b06fdcf6ca20f6f5*, or [apply for one](https://fred.stlouisfed.org/docs/api/api_key.html) for free on the FRED website. This API is made available under a permissive, open-source Apache-2.0 license. Links to [PyPi](https://pypi.org/project/fredapi/) and [GitHub](https://github.com/mortada/fredapi).
+
 ### Libraries
 
 What follows are the main libraries used in this project. For a complete list, including dependencies, please refer to the requirements.txt file.
@@ -30,11 +38,3 @@ What follows are the main libraries used in this project. For a complete list, i
 - sklearn   : 1.2.2
 - skorch    : 0.15.0
 - optuna    : 3.6.1
-
-### Data access statement
-
-All data used in this project can be freely accessed from the below two sources in order to allow for reproducibility of results.
-
-**yfinance**: An open-source tool that uses Yahoo's publicly available APIs and is intended for research and educational purposes. Please refer to Yahoo!'s terms of use ([here](https://legal.yahoo.com/us/en/yahoo/terms/product-atos/apiforydn/index.html), [here](https://legal.yahoo.com/us/en/yahoo/terms/otos/index.html), and [here](https://policies.yahoo.com/us/en/yahoo/terms/index.htm)) for details on your rights to use the actual data downloaded. Note that the Yahoo! Finance API is intended for personal use only. Links to [PyPi](https://pypi.org/project/yfinance/) and [GitHub](https://github.com/ranaroussi/yfinance).
-
-**fredapi**: A Python API for the [FRED](https://fred.stlouisfed.org/) data provided by the Federal Reserve Bank of St. Louis. In order to use the API you can use the following API key: *a74d505e6731a2b5b06fdcf6ca20f6f5*, or [apply for one](https://fred.stlouisfed.org/docs/api/api_key.html) for free on the FRED website. This API is made available under a permissive, open-source Apache-2.0 license. Links to [PyPi](https://pypi.org/project/fredapi/) and [GitHub](https://github.com/mortada/fredapi).
