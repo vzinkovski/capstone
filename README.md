@@ -1,5 +1,5 @@
 ## FORECASTING DAILY RETURNS FOR S&P 500 CONSTITUENTS & IMPLEMENTING A TRADING STRATEGY
-*Authors: Takehisa Kanayama & Vladimir Zinkovski*
+*Authors: Takehisa Kanayama & Vladimir Zinkovski, April 2024*
 
 ### Introduction
 
@@ -7,7 +7,7 @@ This project seeks to forecast daily returns for S&P 500 constituent companies. 
 
 ### Results
 
-The following table summarizes individual and ensemble model performance versus a benchmark DummyClassifier. The average highest precision score over the validation set is achieved by the VotingClassifier at 0.556 (lower bound at 0.507). However, when accounting for standard deviation, the absolute highest lower bound is achieved by the RandomForest at 0.512. We select the RandomForest, further optimize its decision threshold such that gross cumulative percentage equity returns and precision are maximized, then use this best model upon which to build our trading strategy. Our best model achieves a higher precision score than the DummyClassifier on the out-of-sample test set.
+The following table summarizes individual and ensemble model performance versus a benchmark DummyClassifier. The average highest precision score over the validation set is achieved by the VotingClassifier at 0.556 (lower bound at 0.507). However, when accounting for standard deviation, the absolute highest lower bound is achieved by the RandomForest at 0.512. We select the RandomForest, further optimize its decision threshold such that gross cumulative percentage equity returns are maximized, then use this best model upon which to build our trading strategy. Lastly, our best model also managed to achieve a higher precision score than the DummyClassifier on the out-of-sample test set.
 
 ![Precision Scores](https://raw.githubusercontent.com/vzinkovski/umich_siads_capstone/main/precision_scores.png)
 
