@@ -9,11 +9,15 @@ This project seeks to forecast daily returns for S&P 500 constituent companies. 
 
 The following table summarizes individual and ensemble model performance versus a benchmark DummyClassifier. The average highest precision score over the validation set is achieved by the VotingClassifier at 0.556 (lower bound at 0.507). However, when accounting for standard deviation, the absolute highest lower bound is achieved by the RandomForest at 0.512. We select the RandomForest, further optimize its decision threshold such that gross cumulative percentage equity returns are maximized, then use this best model upon which to build our trading strategy. Lastly, our best model also managed to achieve a higher precision score than the DummyClassifier on the out-of-sample test set.
 
+
 ![Precision Scores](https://raw.githubusercontent.com/vzinkovski/umich_siads_capstone/main/precision_scores.png)
+
 
 The below chart shows the performance of our trading strategy versus a naive buy-and-hold trading strategy. Our strategy failed to outperform its benchmark, the S&P 500, particularly underperforming during bull market years. However, our simple trading model was nevertheless able to break-even over the 3-year test period from 2021-2023 and present a plausible starting point for further work.
 
+
 ![Trading Performance](https://raw.githubusercontent.com/vzinkovski/umich_siads_capstone/main/trading_performance.png)
+
 
 ### Conclusion
 
