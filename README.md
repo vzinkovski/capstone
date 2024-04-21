@@ -9,8 +9,8 @@ This project seeks to forecast daily returns for S&P 500 constituent companies. 
 
 The following table summarizes individual and ensemble model performance versus a benchmark DummyClassifier.
 
-![Alt Text]([url](https://raw.githubusercontent.com/vzinkovski/umich_siads_capstone/main/precision_scores.png
-))
+![Precision Scores](https://raw.githubusercontent.com/vzinkovski/umich_siads_capstone/main/precision_scores.png)
+
 
 The below chart shows the performance of our trading strategy versus a naive buy-and-hold trading strategy.
 
