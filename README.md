@@ -1,4 +1,4 @@
-Please follow this **[link](https://nbviewer.org/github/vzinkovski/commodities_mean_reversion_pairs_trading/blob/main/mean_reversion_pairs_trading.ipynb)** to view the full project.
+Please follow this **[link]([https://nbviewer.org/github/vzinkovski/commodities_mean_reversion_pairs_trading/blob/main/mean_reversion_pairs_trading.ipynb](https://github.com/vzinkovski/umich_siads_capstone/blob/main/FORECASTING%20DAILY%20RETURNS%20FOR%20S%26P%20500%20CONSTITUENTS%20%26%20IMPLEMENTING%20A%20TRADING%20STRATEGY.pdf))** to view the full project.
 
 ---
 
