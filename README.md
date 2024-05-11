@@ -4,6 +4,7 @@ Please follow this **[link](https://github.com/vzinkovski/umich_siads_capstone/b
 
 ## FORECASTING DAILY RETURNS FOR S&P 500 CONSTITUENTS & IMPLEMENTING A TRADING STRATEGY
 *Authors: Takehisa Kanayama & Vladimir Zinkovski*
+ 
 *Publication date: April 2024*
 
 ### Introduction
