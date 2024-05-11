@@ -1,5 +1,6 @@
 ## FORECASTING DAILY RETURNS FOR S&P 500 CONSTITUENTS & IMPLEMENTING A TRADING STRATEGY
-*Authors: Takehisa Kanayama & Vladimir Zinkovski, April 2024*
+*Authors: Takehisa Kanayama & Vladimir Zinkovski*
+*Publication date: April 2024*
 
 ### Introduction
 
