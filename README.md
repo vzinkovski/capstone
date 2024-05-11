@@ -33,7 +33,7 @@ Finally, ingesting data from additional sources, particularly non-traditional so
 
 ### How to run the code?
 
-Our work has been fully produced in the Jupyter Notebook format using the Python language. This format encourages reproducibility of results and we encourage the reader to download a copy and experiment with the code. Please follow this **[link](https://nbviewer.org/github/vzinkovski/umich_siads_capstone/blob/main/forecast_sp500_returns.ipynb)** to view the complete project.
+Our work has been fully produced in the Jupyter Notebook format using the Python language. This format encourages reproducibility of results and we encourage the reader to download a copy and experiment with the code. Please follow this **[link](https://nbviewer.org/github/vzinkovski/umich_siads_capstone/blob/main/forecast_sp500_returns.ipynb)** to view the full code.
 
 ### Data access statement
 
