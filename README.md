@@ -1,3 +1,7 @@
+Please follow this **[link](https://nbviewer.org/github/vzinkovski/commodities_mean_reversion_pairs_trading/blob/main/mean_reversion_pairs_trading.ipynb)** to view the full project.
+
+---
+
 ## FORECASTING DAILY RETURNS FOR S&P 500 CONSTITUENTS & IMPLEMENTING A TRADING STRATEGY
 *Authors: Takehisa Kanayama & Vladimir Zinkovski*
 *Publication date: April 2024*
